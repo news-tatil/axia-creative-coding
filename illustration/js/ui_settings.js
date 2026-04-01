@@ -5,7 +5,7 @@ const menu_opt = [
     {
         no_ui_buttons: true,
         collapsed: false,
-        logo: "assets/illustration/img/logo_axia.svg",
+        logo: "./assets/illustration/img/logo_axia.svg",
         title: "",
         items: [
             { type: "file", name: "load", text: "Carregar arquivo", callback: loadAsset },
