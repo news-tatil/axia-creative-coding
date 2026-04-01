@@ -239,7 +239,7 @@ async function initFFmpeg() {
     try {
         ffmpeg = FFmpeg.createFFmpeg({
             log: false,
-            corePath: new URL("assets/symbol/js/ffmpeg/ffmpeg-core.js", window.location.href).href,
+            corePath: new URL("./assets/symbol/js/ffmpeg/ffmpeg-core.js", window.location.href).href,
         })
         await ffmpeg.load()
         isFFmpegReady = true
