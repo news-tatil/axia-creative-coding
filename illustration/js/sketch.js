@@ -22,7 +22,7 @@ let cnv,
 const zip = new JSZip()
 
 function preload() {
-    img = loadImage("assets/illustration/img/iStock-1139792571.jpg")
+    img = loadImage("./assets/illustration/img/iStock-1139792571.jpg")
 }
 
 function setup() {
