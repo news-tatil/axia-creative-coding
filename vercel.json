@@ -1,8 +1,8 @@
 {
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/(.*)",
-      "cleanUrls": true,
       "headers": [
         {
           "key": "Cross-Origin-Opener-Policy",
